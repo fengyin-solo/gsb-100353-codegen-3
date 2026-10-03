@@ -35,3 +35,17 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+.judge-panel { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 12px; }
+.judge-head h3 { margin: 0 0 4px; font-size: 15px; }
+.judge-head p { margin: 0 0 10px; color: var(--muted); font-size: 12px; }
+.judge-select { display: block; max-width: 360px; margin-bottom: 8px; }
+.judge-select span, .judge-form span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+.judge-select select, .judge-form input, .judge-form select { width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; }
+.judge-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 10px 0; }
+.judge-grid div { background: #f8fafc; border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; }
+.judge-grid dt { font-size: 12px; color: var(--muted); }
+.judge-grid dd { margin: 2px 0 0; font-size: 15px; font-weight: 600; }
+.judge-basis { font-size: 12px; color: var(--muted); background: #eef2f7; border-radius: 6px; padding: 6px 8px; }
+.judge-form { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; }
+.judge-opinion { flex: 1; min-width: 260px; }
+.judge-message { font-size: 12px; color: var(--brand); margin: 8px 0 0; }
